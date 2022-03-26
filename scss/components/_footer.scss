@@ -1,0 +1,9 @@
+@mixin footerColor ($background,$marginTop,$padding,$textA){
+    background-color: $background;
+    margin-top: $marginTop;
+    padding: $padding;
+    text-align: center;
+}
+.footerBg{
+    @include footerColor($colorFondoFooter,10px,30px,center)
+}

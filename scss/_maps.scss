@@ -1,0 +1,11 @@
+//DECLARO MAP//
+$estilo:(
+    centro: center,
+    paddingTop: 20px,
+    paddingBot: 20px,
+);
+.centrar{
+    text-align:map-get($estilo , centro );
+    padding-top: map-get($estilo, paddingTop );
+    padding-bottom: map-get($estilo , paddingBot );
+}
